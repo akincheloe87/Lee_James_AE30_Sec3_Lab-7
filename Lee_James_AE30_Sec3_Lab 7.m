@@ -6,7 +6,7 @@ clear all, close all, clc
 P = input ('Please input borrowed amount:\n');
 i = input ('Please input annual interest rate:\n');
 n = input ('Please input number of years:\n');
-while P < 0 ||  i < 0 || n<0
+while P < 0 ||  i < 0 || n < 0
     P = input ('Please reinput non-negative borrowed amount:\n');
     i = input ('Please reinput non-negative annual interest rate:\n');
     n = input ('Please reinput non-negative number of years:\n');
