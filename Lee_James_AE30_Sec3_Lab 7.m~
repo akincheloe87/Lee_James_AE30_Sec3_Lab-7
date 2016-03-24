@@ -28,5 +28,7 @@ title('Amount of S as it increases through the years');
 sumprint;
 
 %% Problem 3
+
 projectile_inputs;
+persistent v0 theta t;
 projectile_motion;
